@@ -13,7 +13,7 @@ const char* password = "IDS@2023";
 const char* mqttHost = "broker.hivemq.com";
 const uint16_t mqttPort = 1883;
 const char* mqttClientId = "StationMeteo_ESP32";
-const char* mqttTopic = "capteur/bme280";
+const char* mqttTopic = "hafidaso/capteur/bme280";
 
 void demarrerLeCapteur() {
     if (!capteur.begin(0x76) && !capteur.begin(0x77)) {
